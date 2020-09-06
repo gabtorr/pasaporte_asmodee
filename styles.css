@@ -1,8 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
 
-body{
+body {
     font-family: 'Poppins', sans-serif;
 }
+
 .pre-menu {
     background-color: #3d0070;
     min-height: 3em;
@@ -42,10 +43,33 @@ body{
     padding-bottom: 50px;
 }
 
-.feature-title{
+.feature-title {
     color: coral;
     font-weight: bold;
     padding-bottom: 1.5em;
+}
+
+.feature-description {
+    font-size: 20px;
+}
+.games-on-campaign {
+    font-size: 1em;
+}
+.campaign-games{
+    padding-top: 15px;
+}
+.asmodee-quest{
+    padding-top: 40px;
+    max-width: 250px !important;
+}
+
+.asmodee-quest-description{
+    padding-top: 1.5em;
+}
+
+.quest-sticker{
+    max-width: 70px;
+    padding-right: 5px;
 }
 
 .phone {
@@ -84,6 +108,49 @@ body{
     border-radius: 10px;
 }
 
+.no-gutters {
+    margin-right: 0;
+    margin-left: 0;
+    padding-bottom: 20px;
+
+}
+
+.no-gutters > .col,
+.no-gutters > [class*="col-"] {
+    padding-right: 0;
+    padding-left: 0;
+
+}
+
+.coral-text {
+    color: coral;
+}
+
+.violet-text {
+    color: #3d0070;
+}
+
+.price-text {
+    font-size: 3em;
+}
+
+.discount-header {
+    color: white !important;
+    border: 1px solid #3d0070;
+    border-radius: 5px;
+    background-color: #3d0070;
+    font-size: 2em;
+}
+
+.discount-body {
+    margin-top: -1em;
+    color: coral !important;
+    border: 1px solid coral;
+    border-radius: 5px;
+    font-size: 1em;
+    padding: 15px;
+}
+
 
 /* Responsive */
 @media screen and (max-width: 600px) {
@@ -110,13 +177,17 @@ body{
     }
 
     .feature-image {
-
+        padding-top: 10px;
         text-align: center;
         display: block;
         margin-left: auto;
         margin-right: auto;
         width: 70%;
 
+    }
+
+    .price-text{
+        font-size: 1.5em;
     }
 
 }
