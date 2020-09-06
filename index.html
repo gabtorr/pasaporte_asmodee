@@ -2,9 +2,133 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <title>Pasaporta Asmodee</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Pasaporte Asmodee</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+          integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
+<!-- Menu (Navbar) - Bootstrap -->
+<div class="pre-menu container-fluid">
+    <div class="row">
+        <div class=" pre-menu-content container">
+            <div class="row">
+                <div class="col-6">
+                    <a class="pre-menu-icon" href="tel:123456789">
+                        <i class="fa fa-phone pre-menu-item phone" aria-hidden="true" style="font-size: 1.5em;"></i>
+                        123-456-78
+                    </a>
+                </div>
+
+                <div class="col offset-lg-4">
+                    <a class="pre-menu-icon" href="#"> <i class="fa fa-instagram any-icon  " aria-hidden="true"
+                                                          style="font-size: 1.5em;"></i></a>
+                    <a class="pre-menu-icon" href="#"><i class="fa fa-twitch  any-icon" aria-hidden="true"
+                                                         style="font-size: 1.5em;"></i></a>
+                    <a class="pre-menu-icon" href="#"><i class="fa fa-facebook  any-icon" aria-hidden="true"
+                                                         style="font-size: 1.5em;"></i></a>
+                    <a class="pre-menu-icon" href="#"><i class="fa fa-youtube-play  last-icon" aria-hidden="true"
+                                                         style="font-size: 1.5em;"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top ">
+
+    <div class="container">
+        <a class="navbar-brand" href="#">
+            <img class="img-fluid logo" src="https://www.asmodee.cl/wp-content/uploads/2019/11/logo_asmodee.png"
+                 alt="Asmodee logo" loading="lazy" title="Asmodee logo">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse " id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link current-selected-item" href="#">Pasaporte Asmodee <span
+                        class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Tiendas</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Beneficios</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Asmodee Quest</a>
+                </li>
+
+            </ul>
+        </div>
+    </div>
+
+</nav>
+
+<!-- Header  -->
+<div class="container-fluid section">
+    <div class="container">
+        <img src="images/header.png" class="img-fluid banner-desktop" alt="Header Pasaporte Asmodee">
+    </div>
+    <img src="images/header.png" class="banner-mobile" alt="Header Pasaporte Asmodee">
+</div>
+
+<!-- Feateures -->
+<div class="container section">
+    <div class="row row-cols-1 row-cols-sm-1 row-cols-md-3 row-cols-lg-3">
+        <div class="col">
+            <img class="img-fluid feature-image" src="images/first_feature.jpg" alt="Beneficios pasaportes asmodee">
+            <div class="centered-text">¿Cómo acceder al pasaporte?</div>
+        </div>
+        <div class="col">
+            <img class="img-fluid feature-image" src="images/second_feature.jpg" alt="Beneficios pasaportes asmodee">
+            <div class="centered-text ">Beneficios</div>
+        </div>
+        <div class="col">
+            <img class="img-fluid feature-image" src="images/third_feature.jpg" alt="Beneficios pasaportes asmodee">
+            <div class="centered-text">Asmodee Quest</div>
+        </div>
+
+    </div>
+</div>
+
+<!-- First Feature -->
+
+<div class="container section">
+    <div class="row">
+        <div class="col">
+            <h2 class="text-center feature-title"> ¿Cómo acceder al pasaporte?</h2>
+            <p class="text-center">
+                El pasaporte Asmodee te garantiza un viaje de ida a las más entretenidas tierras lúdicas.
+                Completa tu pasaporte con los diferentes stickers que puedes encontrar en las distintas
+                tiendas de juego amiga. Por cada 10 stickers podrás acceder a beneficios especiales que
+                Asmodee tiene para ti.
+                Para canjear tu pasaporte, solo debes realizar una compra de cualquier producto Asmodee en
+                una de las tiendas sujetas a la campaña.
+            </p>
+        </div>
+    </div>
+
+</div>
+
+
+
+
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+        crossorigin="anonymous"></script>
 
 </body>
 </html>

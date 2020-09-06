@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.pre-menu {
+    background-color: #3d0070;
+    min-height: 3em;
+    position: relative;
+}
+
+
+.logo {
+    max-width: 125px;
+}
+
+.current-selected-item {
+    color: white !important;
+    border: 1px solid coral;
+    border-radius: 5px;
+    background-color: coral;
+}
+
+
+.banner-mobile {
+    display: none;
+}
+
+.centered-text {
+
+    font-size: 1.5em;
+    font-weight: bold;
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+.section {
+    padding-bottom: 50px;
+}
+
+.feature-title{
+    color: coral;
+    font-weight: bold;
+    padding-bottom: 1.5em;
+}
+
+.phone {
+    font-size: 1em;
+    padding-right: 10px;
+}
+
+.any-icon {
+    padding-right: 12px;
+}
+
+.last-icon {
+    font-size: 2em;
+}
+
+
+.pre-menu-content {
+    color: white;
+    padding-top: 10px;
+}
+
+.pre-menu-icon {
+    color: white;
+}
+
+.pre-menu-icon:active {
+    color: aquamarine;
+}
+
+.pre-menu-icon:hover {
+    color: azure;
+}
+
+.feature-image {
+    filter: brightness(0.50);
+    border-radius: 10px;
+}
+
+
+/* Responsive */
+@media screen and (max-width: 600px) {
+    .banner-mobile {
+        display: inline;
+        width: 100%;
+    }
+
+    .banner-desktop {
+        display: none;
+    }
+
+    .any-icon {
+        font-size: 1em !important;
+        padding-right: 10px;
+    }
+
+    .last-icon {
+        font-size: 1em !important;
+    }
+
+    .logo {
+        max-width: 95px;
+    }
+
+    .feature-image {
+
+        text-align: center;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 70%;
+
+    }
+
+}
