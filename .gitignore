@@ -1,3 +1,4 @@
 
 #Ignore all the .idea files (Webstorm)#
 .idea
+.DS_Store

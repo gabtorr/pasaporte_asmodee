@@ -22,6 +22,21 @@ body {
     background-color: coral;
 }
 
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+    color: #ffffff;
+    background-color: coral;
+    border-color: coral coral coral;
+}
+.nav-link.active{
+    color: white !important;
+    border: 1px solid coral;
+    border-radius: 5px;
+    background-color: coral;
+}
+
+.shop-logo{
+    max-width: 175px;
+}
 
 .banner-mobile {
     display: none;
@@ -72,6 +87,10 @@ body {
     padding-right: 5px;
 }
 
+.nav-tabs{
+    border:none;
+}
+
 .phone {
     font-size: 1em;
     padding-right: 10px;
@@ -98,6 +117,8 @@ body {
 .pre-menu-icon:active {
     color: aquamarine;
 }
+
+
 
 .pre-menu-icon:hover {
     color: azure;
@@ -188,6 +209,10 @@ body {
 
     .price-text{
         font-size: 1.5em;
+    }
+
+    .shop-logo{
+        max-width: 100px;
     }
 
 }
