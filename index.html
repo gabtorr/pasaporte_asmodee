@@ -16,9 +16,9 @@
         <div class=" pre-menu-content container">
             <div class="row">
                 <div class="col-6">
-                    <a class="pre-menu-icon" href="tel:123456789">
-                        <i class="fa fa-phone pre-menu-item phone" aria-hidden="true" style="font-size: 1.5em;"></i>
-                        123-456-78
+                    <a class="pre-menu-icon" href="tel:+56222350495">
+                        <i class="fa fa-phone phone" aria-hidden="true"></i>
+                        +562 2235 0495
                     </a>
                 </div>
 
@@ -45,22 +45,25 @@
         </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
+            <i class="fa fa-navicon" style="color:#3d0070; font-size:28px;"></i>
         </button>
         <div class="collapse navbar-collapse " id="navbarNav">
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item">
-                    <a class="nav-link current-selected-item" href="#">Pasaporte Asmodee <span
+                    <a class="nav-link current-selected-item" href="#pasaporte">Pasaporte Asmodee <span
                         class="sr-only">(current)</span></a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Tiendas</a>
+                <li class="nav-item ">
+                    <a class="nav-link violet-text" href="#tiendas">Tiendas</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Beneficios</a>
+                    <a class="nav-link violet-text" href="#beneficios">Beneficios</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Asmodee Quest</a>
+                    <a class="nav-link violet-text" href="#quest">Asmodee Quest</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link video-button " data-toggle="modal" data-target="#exampleModal">Video</a>
                 </li>
 
             </ul>
@@ -69,35 +72,64 @@
 
 </nav>
 
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3 class="modal-title" id="exampleModalLabel">Pasaporte Asmodee</h3>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div style="padding:56.25% 0 0 0;position:relative;">
+                    <iframe src="https://player.vimeo.com/video/455096626?title=0&byline=0&portrait=0"
+                            style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0"
+                            allow="autoplay; fullscreen" allowfullscreen></iframe>
+                </div>
+                <script src="https://player.vimeo.com/api/player.js"></script>
+            </div>
+        </div>
+    </div>
+</div>
+
 <!-- Header  -->
 <div class="container-fluid section">
     <div class="container">
-        <img src="images/header.png" class="img-fluid banner-desktop" alt="Header Pasaporte Asmodee">
+        <img src="images/header.jpg" class="img-fluid banner-desktop" alt="Header Pasaporte Asmodee">
     </div>
-    <img src="images/header.png" class="banner-mobile" alt="Header Pasaporte Asmodee">
+    <img src="images/header.jpg" class="banner-mobile" alt="Header Pasaporte Asmodee">
 </div>
 
 <!-- Feateures -->
 <div class="container section">
     <div class="row row-cols-1 row-cols-sm-1 row-cols-md-3 row-cols-lg-3">
         <div class="col">
-            <img class="img-fluid feature-image" src="images/first_feature.jpg" alt="Beneficios pasaportes asmodee">
-            <div class="centered-text">¿Cómo acceder al pasaporte?</div>
+            <a href="#pasaporte">
+                <img class="img-fluid feature-image" src="images/first_feature.jpg" alt="Beneficios pasaportes asmodee">
+                <div class="centered-text">¿Cómo acceder al pasaporte?</div>
+            </a>
         </div>
         <div class="col">
-            <img class="img-fluid feature-image" src="images/second_feature.jpg" alt="Beneficios pasaportes asmodee">
-            <div class="centered-text ">Beneficios</div>
+            <a href="#beneficios">
+                <img class="img-fluid feature-image" src="images/second_feature.jpg"
+                     alt="Beneficios pasaportes asmodee">
+                <div class="centered-text ">Beneficios</div>
+            </a>
         </div>
         <div class="col">
-            <img class="img-fluid feature-image" src="images/third_feature.jpg" alt="Beneficios pasaportes asmodee">
-            <div class="centered-text">Asmodee Quest</div>
+            <a href="#quest">
+                <img class="img-fluid feature-image" src="images/third_feature.jpg" alt="Beneficios pasaportes asmodee">
+                <div class="centered-text">Asmodee Quest</div>
+            </a>
         </div>
 
     </div>
 </div>
 
 <!-- First Feature - Meet the passport -->
-
+<a class="anchor" id="pasaporte"></a> <!-- Anchor -->
 <div class="container section">
     <div class="row">
         <div class="col">
@@ -110,6 +142,14 @@
                 Para canjear tu pasaporte, solo debes realizar una compra de cualquier producto Asmodee en
                 una de las tiendas sujetas a la campaña.
             </p>
+
+        </div>
+    </div>
+
+    <a class="anchor" id="tiendas"></a> <!-- Anchor -->
+
+    <div class="row shops">
+        <div class="col">
             <!-- Friends Shop's button (tab) -->
             <ul class="nav nav-tabs" role="tablist">
                 <li class="nav-item">
@@ -158,13 +198,16 @@
                                                                alt="Logo Guild Dreams"
                                                                title="Logo Guild dreams"></a>
 
-                    <a href="https://www.facebook.com/horadelrecreovaldivia/"><img class="shop-logo"
-                                                                                   src="images/logos/Hora-del-Recreo.png"
-                                                                                   alt="Logo Hora del recreo"
-                                                                                   title="Logo Hora del recreo"></a>
-                    <a href="https://lafortalezapuq.cl/"><img class="shop-logo" src="images/logos/LaFortaleza.png
-" alt="Logo La Fortaleza"
-                                                              title="Logo La Fortaleza"></a>
+                    <a href="https://www.facebook.com/horadelrecreovaldivia/">
+                        <img class="shop-logo"
+                             src="images/logos/Hora-del-Recreo.png"
+                             alt="Logo Hora del recreo"
+                             title="Logo Hora del recreo">
+                    </a>
+                    <a href="https://lafortalezapuq.cl/">
+                        <img class="shop-logo" src="images/logos/LaFortaleza.png" alt="Logo La Fortaleza"
+                             title="Logo La Fortaleza">
+                    </a>
                     <a href="https://kyte.site/ludopia"><img class="shop-logo" src="images/logos/Ludopia.png"
                                                              alt="Logo Ludopia"
                                                              title="Logo Ludopia"></a>
@@ -223,10 +266,10 @@
         </div>
     </div>
 
-
 </div>
 
 <!-- Second Feature - Benefits -->
+<a class="anchor" id="beneficios"></a> <!-- Anchor -->
 <div class="container section">
     <div class="row">
         <div class="col">
@@ -306,6 +349,7 @@
 </div>
 
 <!-- Third feature - Asmodee Quest -->
+<a class="anchor" id="quest"></a> <!-- Anchor -->
 <div class="container section">
     <div class="row">
         <div class="col text-center">
@@ -339,7 +383,7 @@
                  title="Diseño sticker 9">
             <img class="quest-sticker" src="images/quest_stickers/hexa_10.gif" alt="Diseño sticker 10"
                  title="Diseño sticker 10">
-            <p class="violet-text asmodee-quest-description feature-description">
+            <p class="post-stickers">
                 Mazo KeyForge Era de la Ascensión<br>
                 Mazo KeyForge Mundos en Colisión<br>
                 Dobble Blister<br>
@@ -367,11 +411,15 @@
         integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
         crossorigin="anonymous"></script>
 <script>
+
+
     $(document).on('click', '.nav-link.active', function () {
         var href = $(this).attr('href').substring(1);
         $(this).removeClass('active');
         $('.tab-pane[id="' + href + '"]').removeClass('active');
     })
+
+
 </script>
 </body>
 </html>
