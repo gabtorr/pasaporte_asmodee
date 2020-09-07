@@ -139,18 +139,22 @@ body {
 .pre-menu-icon:hover {
     color: azure;
 }
-.navbar-toggler-icon{
+
+.navbar-toggler-icon {
     color: #3d0070;
 }
+
 .feature-image {
     filter: brightness(0.50);
     border-radius: 10px;
 
 }
+
 .img-hover-zoom {
     height: 300px; /* [1.1] Set it as per your need */
     overflow: hidden; /* [1.2] Hide the overflowing of child elements */
 }
+
 /* [2] Transition property for smooth transformation of images */
 .img-hover-zoom img {
     transition: transform .5s ease;
@@ -160,6 +164,7 @@ body {
 .img-hover-zoom:hover img {
     transform: scale(1.1);
 }
+
 .no-gutters {
     margin-right: 0;
     margin-left: 0;
@@ -173,20 +178,25 @@ body {
     padding-left: 0;
 
 }
-.modal-header{
-    background-color: #3d0070; !important;
+
+.modal-header {
+    background-color: #3d0070;
+!important;
 }
-.close{
+
+.close {
     color: azure !important;
 }
-.video-button{
+
+.video-button {
     cursor: pointer;
     color: #3d0070 !important;
 }
 
-.modal-title{
+.modal-title {
     color: white !important;
 }
+
 .coral-text {
     color: coral;
 }
@@ -224,9 +234,6 @@ body {
 }
 
 
-
-
-
 /* Responsive */
 @media screen and (max-width: 600px) {
     .banner-mobile {
@@ -253,15 +260,17 @@ body {
     }
 
     .feature-image {
-        padding-top: 10px;
+        margin-top: 10px;
         text-align: center;
         display: block;
         margin-left: auto;
         margin-right: auto;
         width: 70%;
+        filter: brightness(0.50);
+        border-radius: 10px;
+        border-top-left-radius: 10px;
 
     }
-
 
 
     .price-text {
